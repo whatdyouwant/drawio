@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-28T09:19:56.979Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="g8CEXbtTPK4YC3IR7FiG" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-28T09:33:17.697Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="U-JI1p7qgbvHigRPOgiP" version="21.6.5" type="github">
   <diagram name="第 1 页" id="q6LpDPF4VS59UFywMJ-q">
     <mxGraphModel dx="2020" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="tjSfp8Xapwo-cY2GO-eh-2" value="wifi_daemon" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ub4bC9LeN4pUP6rrSUPj-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tjSfp8Xapwo-cY2GO-eh-3" target="ub4bC9LeN4pUP6rrSUPj-3">
+        <mxCell id="ub4bC9LeN4pUP6rrSUPj-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tjSfp8Xapwo-cY2GO-eh-3" target="ub4bC9LeN4pUP6rrSUPj-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tjSfp8Xapwo-cY2GO-eh-3" value="wpa_supplicant" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -42,20 +42,26 @@
         <mxCell id="tjSfp8Xapwo-cY2GO-eh-11" value="代码中增加wifi模块" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="770" y="350" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ub4bC9LeN4pUP6rrSUPj-5" value="linux 内核" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="305" y="510" width="450" height="450" as="geometry" />
+        <mxCell id="ub4bC9LeN4pUP6rrSUPj-5" value="linux 内核" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="470" y="510" width="240" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="ub4bC9LeN4pUP6rrSUPj-1" value="/etc/wifi/sockets/wlan0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ub4bC9LeN4pUP6rrSUPj-1" value="/etc/wifi/sockets/wlan0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="300" y="348" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ub4bC9LeN4pUP6rrSUPj-2" value="/etc/wifi/sockets/wlan0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ub4bC9LeN4pUP6rrSUPj-2" value="/etc/wifi/sockets/wlan0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="630" y="348" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ub4bC9LeN4pUP6rrSUPj-3" value="nl80211 一套标准接口驱动程序" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ub4bC9LeN4pUP6rrSUPj-3" value="nl80211 一套标准接口驱动程序" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="470" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ub4bC9LeN4pUP6rrSUPj-7" value="硬件wifi模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ub4bC9LeN4pUP6rrSUPj-7" value="硬件wifi模块" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3NBbEQ_CbiwmQknCw262-1" value="wifimanager-api" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="315" y="388" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3NBbEQ_CbiwmQknCw262-2" value="wifimanager-api" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="380" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
