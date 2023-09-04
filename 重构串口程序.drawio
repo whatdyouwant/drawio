@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-09-01T06:45:29.960Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="GLmKNcfDoaVAOBOLEKWW" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-04T03:34:33.643Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="MksGxPBfJUn1pbHmo8Sf" version="21.6.9" type="github">
   <diagram name="第 1 页" id="66gOx5512yXfY_gSDosO">
     <mxGraphModel dx="1519" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ZqYl6DthluTsFYpQP_Cm-1" value="&lt;br&gt;私有协议与通用接口对接&lt;br&gt;旧代码中判断逻辑很多，但实际应用上并没有用到； 判断5aa5&amp;nbsp; &amp;nbsp;然后" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ZqYl6DthluTsFYpQP_Cm-1" value="&lt;br&gt;私有协议与通用接口对接&lt;br&gt;旧代码应该是按照电控系统设计的，所以未必适合linux系统；&lt;br&gt;旧代码中判断逻辑很多，但实际应用上并没有用到； 判断5aa5&amp;nbsp; &amp;nbsp;然后实际用到的应该是不多的" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1" width="640" height="190" as="geometry" />
         </mxCell>
         <mxCell id="ZqYl6DthluTsFYpQP_Cm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZqYl6DthluTsFYpQP_Cm-2" target="ZqYl6DthluTsFYpQP_Cm-3">
