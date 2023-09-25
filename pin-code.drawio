@@ -1,23 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2023-09-25T03:02:28.806Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="-90tpbMUkyqVP11hm5m6" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-25T06:40:44.701Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="vaORcq7sl_L6Bbxwrwfd" version="21.7.5" type="github">
   <diagram name="第 1 页" id="oCYpRtvaUHR6xO9NjpDM">
     <mxGraphModel dx="1136" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="23vE4xYSwetBQoZ4-E83-1" value="下位机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="130" width="120" height="60" as="geometry" />
+        <mxCell id="23vE4xYSwetBQoZ4-E83-7" value="app蓝牙 mqtt" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="690" y="130" width="100" height="800" as="geometry" />
         </mxCell>
-        <mxCell id="23vE4xYSwetBQoZ4-E83-2" value="mowerChassis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="130" width="120" height="60" as="geometry" />
+        <mxCell id="23vE4xYSwetBQoZ4-E83-9" value="fsm" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="510" y="130" width="100" height="800" as="geometry" />
         </mxCell>
-        <mxCell id="23vE4xYSwetBQoZ4-E83-3" value="fsm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="130" width="120" height="60" as="geometry" />
+        <mxCell id="23vE4xYSwetBQoZ4-E83-10" value="mowerChassis" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="314" y="130" width="100" height="800" as="geometry" />
         </mxCell>
-        <mxCell id="23vE4xYSwetBQoZ4-E83-4" value="app-mqtt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="130" width="120" height="60" as="geometry" />
+        <mxCell id="23vE4xYSwetBQoZ4-E83-11" value="下位机" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="100" y="130" width="100" height="800" as="geometry" />
         </mxCell>
-        <mxCell id="23vE4xYSwetBQoZ4-E83-5" value="app蓝牙" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="890" y="130" width="120" height="60" as="geometry" />
+        <mxCell id="23vE4xYSwetBQoZ4-E83-12" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="740" y="190" as="sourcePoint" />
+            <mxPoint x="559.5" y="191" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="740" y="191" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23vE4xYSwetBQoZ4-E83-14" value="pincode" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="23vE4xYSwetBQoZ4-E83-12">
+          <mxGeometry x="-0.0457" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23vE4xYSwetBQoZ4-E83-15" value="0000" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="200" width="60" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="23vE4xYSwetBQoZ4-E83-16" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="23vE4xYSwetBQoZ4-E83-15">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="559.5" y="213" as="sourcePoint" />
+            <mxPoint x="580" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23vE4xYSwetBQoZ4-E83-17" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="440" y="212.5" as="sourcePoint" />
+            <mxPoint x="363.5" y="212.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23vE4xYSwetBQoZ4-E83-18" value="lock_state" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1" target="23vE4xYSwetBQoZ4-E83-10">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="150" y="290" as="sourcePoint" />
+            <mxPoint x="210" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23vE4xYSwetBQoZ4-E83-19" value="lock_state" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="361.75" y="310" as="sourcePoint" />
+            <mxPoint x="558.25" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23vE4xYSwetBQoZ4-E83-20" value="Control Object" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="330" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="23vE4xYSwetBQoZ4-E83-21" value="unlock code" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1" target="23vE4xYSwetBQoZ4-E83-10">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="150" y="450" as="sourcePoint" />
+            <mxPoint x="210" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23vE4xYSwetBQoZ4-E83-23" value="unlock result" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="363.5" y="500" as="sourcePoint" />
+            <mxPoint x="149.5" y="500" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
